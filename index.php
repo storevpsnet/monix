@@ -1,6 +1,6 @@
 <?php
  session_start();
-
+ error_reporting(0);
  define('APP_NAME','Monix');
  define('VER_NO','1.0');
  define('ROOT_DIR', realpath(dirname(__FILE__)).DIRECTORY_SEPARATOR);
