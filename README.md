@@ -6,8 +6,11 @@ Member Support System monix
 
 
 main site : http://monix.ir
+
 Support Forum : http://forum.monix.ir/
+
 Demo : http://demo.monix.ir
+
 learn inistallation :
 
 1. First create a new database
@@ -18,10 +21,13 @@ learn inistallation :
 
 
 Address admin panel
+
 www.domin.ir/tk-panel/
+
 (Www.domin.ir) your domain name
 
 Username: admin
+
 Password: 123456
 
 Note: Be sure the script in the root folder action script will install and trouble, you can create a new sub-domains and the install script
