@@ -1,0 +1,7 @@
+Time : 23:53:45
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'admin_sup.td_pull' doesn't exist
+Raw SQL : SELECT * FROM td_pull  WHERE type_parents_pull =:parent and state_pull = '1' ORDER BY id_pull ASC
+
+Time : 23:53:26
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'admin_sup.td_pull' doesn't exist
+Raw SQL : SELECT * FROM td_pull  WHERE type_parents_pull =:parent and state_pull = '1' ORDER BY id_pull ASC

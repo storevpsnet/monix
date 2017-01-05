@@ -1,0 +1,23 @@
+Time : 15:22:54
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO mo_user(us_username,us_password,us_name,us_email,us_ipreg,us_timestamp_reg,us_date_reg,us_state) VALUES(:username,:pass,:name,:email,:ip,:time,:date,:state)
+
+Time : 15:21:41
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO mo_user(us_username,us_password,us_name,us_email,us_ipreg,us_timestamp_reg,us_date_reg,us_state) VALUES(:username,:pass,:name,:email,:ip,:time,:date,:state)
+
+Time : 15:20:42
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO mo_user(us_username,us_password,us_name,us_email,us_ipreg,us_timestamp_reg,us_date_reg,us_state) VALUES(:username,:pass,:name,:email,:ip,:time,:date,:state)
+
+Time : 15:20:40
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO mo_user(us_username,us_password,us_name,us_email,us_ipreg,us_timestamp_reg,us_date_reg,us_state) VALUES(:username,:pass,:name,:email,:ip,:time,:date,:state)
+
+Time : 15:20:14
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO mo_user(us_username,us_password,us_name,us_email,us_ipreg,us_timestamp_reg,us_date_reg,us_state) VALUES(:username,:pass,:name,:email,:ip,:time,:date,:state)
+
+Time : 15:18:14
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO mo_user(us_username,us_password,us_name,us_email,us_ipreg,us_timestamp_reg,us_date_reg,us_state) VALUES(:username,:pass,:name,:email,:ip,:time,:date,:state)

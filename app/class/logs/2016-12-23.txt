@@ -1,0 +1,5 @@
+Time : 04:38:28
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?) 
+			 VALUES(?,?,?,?,?,?,?,?,?)' at line 1
+Raw SQL : INSERT INTO td_tiket(tk_massage,tk_parent,tk_user_id,tk_last_req,tk_file,tk_ip,tk_timestamp_in,tk_date_in,:code_msg) 
+			 VALUES(:tk_massage,:tk_parent,:tk_user_id,:tk_last_req,:tk_file,:tk_ip,:tk_timestamp_in,:tk_date_in,:code_msg)

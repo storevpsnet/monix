@@ -1,0 +1,68 @@
+Time : 20:40:38
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'tk_last_req = '0' WHERE tk_code = ? and tk_parent='0' and  tk_user_id = ?' at line 1
+Raw SQL : UPDATE td_tiket SET tk_timestamp_res = :time,tk_state='1' ,tk_date_res =:data tk_last_req = '0' WHERE tk_code = :code and tk_parent='0' and  tk_user_id = :id_user
+
+Time : 15:22:26
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_tiket' in 'where clause'
+Raw SQL : SELECT * FROM td_file WHERE id_tiket = '2' and tk_user_id = '1'
+
+Time : 15:22:24
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_tiket' in 'where clause'
+Raw SQL : SELECT * FROM td_file WHERE id_tiket = '2' and tk_user_id = '1'
+
+Time : 15:12:41
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO td_tiket(tk_code,tk_title,tk_massage,tk_olaviat,tk_departmen,tk_state,tk_parent,tk_user_id,tk_timestamp_in,tk_timestamp_res,tk_date_in,tk_date_res,tk_last_req,tk_file)  
+			 VALUES(:tk_code,:tk_title,:tk_massage,:tk_olaviat,:tk_departmen,:tk_state,:tk_parent,:tk_user_id,:tk_timestamp_in,:tk_timestamp_res,:tk_date_in,:tk_date_res,:tk_last_req,:tk_file)
+
+Time : 15:12:37
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO td_tiket(tk_code,tk_title,tk_massage,tk_olaviat,tk_departmen,tk_state,tk_parent,tk_user_id,tk_timestamp_in,tk_timestamp_res,tk_date_in,tk_date_res,tk_last_req,tk_file)  
+			 VALUES(:tk_code,:tk_title,:tk_massage,:tk_olaviat,:tk_departmen,:tk_state,:tk_parent,:tk_user_id,:tk_timestamp_in,:tk_timestamp_res,:tk_date_in,:tk_date_res,:tk_last_req,:tk_file)
+
+Time : 14:57:26
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO td_tiket(tk_code,tk_title,tk_massage,tk_olaviat,tk_departmen,tk_state,tk_parent,tk_user_id,tk_timestamp_in,tk_timestamp_res,tk_date_in,tk_date_res,tk_last_req,tk_file)  
+			 VALUES(:tk_code,:tk_title,:tk_massage,:tk_olaviat,:tk_departmen,:tk_state,:tk_parent,:tk_user_id,:tk_timestamp_in,:tk_timestamp_res,:tk_date_in,:tk_date_res,:tk_last_req,:tk_file)
+
+Time : 14:55:18
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO td_tiket(tk_code,tk_title,tk_massage,tk_olaviat,tk_departmen,tk_state,tk_parent,tk_user_id,tk_timestamp_in,tk_timestamp_res,tk_date_in,tk_date_res,tk_last_req,tk_file) VALUES(:tk_code,:tk_title,:tk_massage,:tk_olaviat,:tk_departmen,:tk_state,:tk_parent,:tk_user_id,:tk_timestamp_in,:tk_timestamp_res,:tk_date_in,:tk_date_res,:tk_last_req,:tk_file)
+
+Time : 14:55:15
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO td_tiket(tk_code,tk_title,tk_massage,tk_olaviat,tk_departmen,tk_state,tk_parent,tk_user_id,tk_timestamp_in,tk_timestamp_res,tk_date_in,tk_date_res,tk_last_req,tk_file) VALUES(:tk_code,:tk_title,:tk_massage,:tk_olaviat,:tk_departmen,:tk_state,:tk_parent,:tk_user_id,:tk_timestamp_in,:tk_timestamp_res,:tk_date_in,:tk_date_res,:tk_last_req,:tk_file)
+
+Time : 14:54:02
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO td_tiket 
+			 (tk_code,tk_title,tk_massage,tk_olaviat,tk_departmen,tk_state,tk_parent,tk_user_id,tk_timestamp_in,tk_timestamp_res,tk_date_in,tk_date_res,tk_last_req,tk_file) VALUES 
+			 (:tk_code,:tk_title,:tk_massage,:tk_olaviat,:tk_departmen,:tk_state,:tk_parent,:tk_user_id,:tk_timestamp_in,:tk_timestamp_res,:tk_date_in,:tk_date_res,:tk_last_req,:tk_file)
+
+Time : 14:49:59
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO td_tiket 
+			 (tk_code,tk_title,tk_massage,tk_olaviat,tk_departmen,tk_state,tk_parent,tk_user_id,tk_timestamp_in,tk_timestamp_res,tk_date_in,tk_date_res,tk_last_req,tk_file) VALUES 
+			 (:tk_code,:tk_title,:tk_massage,:tk_olaviat,:tk_departmen,:tk_state,:tk_parent,:tk_user_id,:tk_timestamp_in,:tk_timestamp_res,:tk_date_in,:tk_date_res,:tk_last_req,:tk_file)
+
+Time : 14:49:35
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO td_tiket 
+			 (tk_code,tk_title,tk_massage,tk_olaviat,tk_departmen,tk_state,tk_parent,tk_user_id,tk_timestamp_in,tk_timestamp_res,tk_timestamp_res,tk_date_in,tk_date_res,tk_last_req,tk_file) VALUES 
+			 (:tk_code,:tk_title,:tk_massage,:tk_olaviat,:tk_departmen,:tk_state,:tk_parent,:tk_user_id,:tk_timestamp_in,:tk_timestamp_res,:tk_date_in,:tk_date_res,:tk_last_req,:tk_file)
+
+Time : 14:48:55
+SQLSTATE[42000]: Syntax error or access violation: 1110 Column 'tk_timestamp_res' specified twice
+Raw SQL : INSERT INTO td_tiket 
+			 (tk_code,tk_title,tk_massage,tk_olaviat,tk_departmen,tk_state,tk_parent,tk_user_id,tk_timestamp_in,tk_timestamp_res,tk_timestamp_res,tk_date_in,tk_date_res,tk_last_req,tk_file) VALUES 
+			 (:tk_code,:tk_title,:tk_massage,:tk_olaviat,:tk_departmen,:tk_state,:tk_parent,:tk_user_id,:tk_timestamp_in,:tk_timestamp_res,:tk_timestamp_res,:tk_date_in,:tk_date_res,:tk_last_req,:tk_file)
+
+Time : 14:35:24
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_fl' in 'order clause'
+Raw SQL : SELECT * FROM td_tiket ORDER BY id_fl DESC 
+
+Time : 14:00:41
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'fl_code' cannot be null
+Raw SQL : INSERT INTO  
+					 td_file(fl_filename,fl_code,fl_type,fl_min_path,fl_full_path,fl_user_id,fl_state,fl_timestamp,fl_size) VALUES 
+					 (:fl_filename,:fl_code,:fl_type,:fl_min_path,:fl_full_path,:fl_user_id,:fl_state,:fl_timestamp,:fl_size)
