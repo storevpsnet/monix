@@ -1,7 +1,7 @@
 <?php
 
    session_start();
-
+   error_reporting(0);
    $roots = str_replace('tk-panel','',__DIR__);
    define('APP_NAME','TakfaPanelUser');
    define('ROOT_DIR', realpath(dirname(__FILE__)).DIRECTORY_SEPARATOR);
