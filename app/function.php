@@ -75,7 +75,7 @@ function get_client_ip() {
         $ipaddress = $_SERVER['REMOTE_ADDR'];
     else
         $ipaddress = 'UNKNOWN';
-    return $ipaddress;
+    return filter($ipaddress);
 }
 function check_val($username,$by,$tabel){
   $db = new Db();
